@@ -1,3 +1,94 @@
-body{
-	background-color: yellow
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400;700;800');
+body, html{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
 }
+
+h1{
+font-weight: 800;
+font-size: 50px;
+}
+
+h4{
+font-weight: bold;
+font-size: 20px;
+}
+
+.wrapper{
+width: 960px;
+margin: 0 auto;
+}
+
+.hero-banner{
+background-color: #007FFF;
+height: 100vh;
+padding: 0 20px;
+}
+
+.character1{
+
+} 
+
+.character2{
+
+}
+
+.character3{
+
+}
+
+a.cta,
+button.cta{
+font-size: 30px;
+font-weight: bold;
+color: orangered;
+background: #007FFF;
+display: inline-block;
+border: 10px solid rgba (0,0,0,.15);
+padding: 20px 30px;
+border-radius: 10px;
+}
+
+a.cta.alt,
+button.cta.alt{
+background-color: yellow;
+font-size: 40px;
+}
+
+.hero-banner h4{
+	color: white;
+}
+
+.hero-banner h4 a{
+	color: white;
+	margin: 0;
+}
+
+.hero-banner h1{
+	color: white;
+	margin: 14px 0 20px;
+}
+
+h3{
+	font-weight: bold 
+	font-size: 30px;
+
+}
+.hero-banner h3{
+	color: white;
+	margin: 14px 0 20px;
+}
+/*
+<div class="hero-banner">
+		<div class="wrapper">
+			<h4> Rich from <a href="https://taptapkaboom.com">Tap Tap Kaboom</a> presents</h4>
+			<h1>The Silliest &amp; <br/>
+			Most Awesome Gang <br/>
+		    In The World!</h1>
+		    <h3>Ir's Circle Guy, Hat Guy &amp; Red Guy.<br/>
+		    They're the best of friends. </h3>
+		    <a class="cta alt" href="#more-info">Read More</a>
+
+
+*/
