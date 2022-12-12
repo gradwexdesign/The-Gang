@@ -23,19 +23,34 @@ margin: 0 auto;
 .hero-banner{
 background-color: #007FFF;
 height: 100vh;
-padding: 0 20px;
+padding: 50px 20px;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
 }
 
 .character1{
-
+	background: url(img/character1.png) no-repeat 0 0;
+	background-size: 100%;
+width: 363px;
+height: 344px;
+position: absolute; top: 117px; right: 89px;
 } 
 
 .character2{
-
+	background: url(img/character2.png) no-repeat 0 0;;
+	background-size: 100%;
+width: 100px;
+height: 200px;
+position: absolute; top: 213px; right: 277px;
 }
 
 .character3{
-
+	background: url(img/character3.png) no-repeat 0 0;;
+	background-size: 100%;
+width: 297px;
+height: 286px;
+position: absolute; bottom: 74px; right: 109px;
 }
 
 a.cta,
@@ -45,15 +60,19 @@ font-weight: bold;
 color: orangered;
 background: #007FFF;
 display: inline-block;
-border: 10px solid rgba (0,0,0,.15);
+outline: 10px solid rgba(0,127,255,.15);
+box-shadow: 0 0 0 10px rgba(0,127,255,.15);
 padding: 20px 30px;
 border-radius: 10px;
+outline-color: rgba(0,0,0,.15);
 }
 
 a.cta.alt,
 button.cta.alt{
-background-color: yellow;
-font-size: 40px;
+background-color: #FFD400;
+outline-color: rgba(0,0,0,.15);
+box-shadow: 0 0 0 10px rgba (0,127,255,.15);
+outline: 10px solid rgba (0,127,255,.15);
 }
 
 .hero-banner h4{
@@ -77,7 +96,8 @@ h3{
 }
 .hero-banner h3{
 	color: white;
-	margin: 14px 0 20px;
+	margin: 0 0 35px;
+
 }
 /*
 <div class="hero-banner">
