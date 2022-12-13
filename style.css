@@ -89,6 +89,11 @@ outline: 10px solid rgba (0,127,255,.15);
 	margin: 14px 0 20px;
 }
 
+h2{
+	font-weight: 800;
+	font-size: 50px;
+}
+
 h3{
 	font-weight: bold 
 	font-size: 30px;
@@ -99,16 +104,71 @@ h3{
 	margin: 0 0 35px;
 
 }
-/*
-<div class="hero-banner">
-		<div class="wrapper">
-			<h4> Rich from <a href="https://taptapkaboom.com">Tap Tap Kaboom</a> presents</h4>
-			<h1>The Silliest &amp; <br/>
-			Most Awesome Gang <br/>
-		    In The World!</h1>
-		    <h3>Ir's Circle Guy, Hat Guy &amp; Red Guy.<br/>
-		    They're the best of friends. </h3>
-		    <a class="cta alt" href="#more-info">Read More</a>
 
+nav{
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0,.2);
+	position: sticky;
+	top: 0;
+}
+
+nav .logo{
+	display: block;
+	width: 300px;
+	height: 40px;
+	position: absolute; top: 50%; left: 30px;
+	margin-top: -20px;
+	background: url(img/logo.png) no-repeat 0 0;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -999px;
+}
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+
+}
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #111111;
+	text-decoration: none;
+	padding: 35px 10px;
+	line-height: 30px;
+}
+
+.more-info{
+text-align: center;
+}
+
+
+p{
+font-weight: bold;
+font-size: 30px;
+margin: 30px 0;
+
+}
+
+/*
+<nav>
+	<a href="#" class="logo">The Gang</a>
+	<ul>
+		<li><a href="#">Sign Up</a></li>
+		<li><a href="#story">The Story</a></li>
+    <li><a href="#more-info">More Info</a></li>   
+	</ul>
+</nav>
 
 */
