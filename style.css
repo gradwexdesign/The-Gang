@@ -153,12 +153,28 @@ nav ul li a{
 text-align: center;
 }
 
+.more-info p{
+	margin: 18 px 0 35px;
+	font-weight: 800;
+}
+
+.more-info h2{
+	margin: 50 px 0 0px;
+}
 
 p{
 font-weight: bold;
 font-size: 30px;
 margin: 30px 0;
 
+}
+
+.highlight{
+	background-color: #FFADF9;
+	color: #FF3300;
+	padding: 5px 10px;
+	display: inline;
+	line-height: 50px;
 }
 
 /*
